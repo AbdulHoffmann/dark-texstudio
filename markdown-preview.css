@@ -1,3 +1,8 @@
+/* References used:
+    https://github.com/mjbvz/vscode-github-markdown-preview-style
+    https://theme.typora.io/theme/Fluent/
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/:root */
@@ -639,15 +644,15 @@ blockquote>h6:first-child::before {
 
 /* regular inline code */
 code {
-    color:#005cc5;
+    color: var(--panda-pink);
 
     font-family: var(--mono);
     font-variant-ligatures: common-ligatures!important;
     font-feature-settings: "liga" 1!important;
 
     border-radius: 4px;
-    padding: 2px;
-    background-color: var(--elevated-background);
+    padding: 1px 2px;
+    background-color: var(--color-scale-gray-8);
     border: 1px solid var(--border);
 }
 
