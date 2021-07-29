@@ -109,6 +109,7 @@
     --bookmark-color: #ae92e3;
     --star-color: var(--color-scale-blue-2);
     --table-border: 1px solid var(--color-scale-gray-7) !important;
+    --code-block-color: #212126;
 }
 
 :root {
@@ -660,7 +661,7 @@ code {
 pre:not(code) {
     border: 1px solid var(--border);
     padding: 6px 4px !important;
-    background-color: var(--elevated-background) !important;
+    background-color: var(--code-block-color) !important;
 }
 
 /* code block */
