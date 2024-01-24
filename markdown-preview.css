@@ -60,7 +60,8 @@
 }
 
 :root {
-    --title-color: #eff0f2;
+    --big-title-color: #e7a75d;
+    --smaller-title-color: #9e4f2a;
     --bg-color: #131416;
     --text-color: #d0d3d4;
     --side-bar-bg-color: #030405;
@@ -152,9 +153,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--display-font)!important;
 }
 
-h1, h2, h3, h4 {
-    color: var(--title-color);
+h1, h2 {
+    color: var(--big-title-color);
     letter-spacing: -0.04rem;
+}
+
+h3, h4 {
+    color: var(--smaller-title-color);
+    letter-spacing: -.06rem;
 }
 
 h6 {
