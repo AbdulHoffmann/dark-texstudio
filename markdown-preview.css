@@ -129,7 +129,7 @@ body, .file-list-item-summary {
     font-family: var(--general-font);
     font-feature-settings: var(--general-font-feature-settings);
     color: var(--text-color);
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 body > div > :first-child {
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2 {
     color: var(--big-title-color);
     letter-spacing: -0.04rem;
-    margin-top: 1rem;
+    margin-top: 0.8rem;
 }
 
 h3, h4 {
@@ -188,6 +188,7 @@ h1 {
 h2 {
     font-size: 1.85em;
     line-height: 1.2;
+    margin-bottom: 0.4rem;
     padding-bottom: 0em;
     border-bottom: none;
 }
@@ -238,7 +239,8 @@ li p.first {
 }
 
 li p {
-    margin: auto;
+    margin: 0.25rem auto;
+    line-height: normal;
 }
 
 ul, ol {
