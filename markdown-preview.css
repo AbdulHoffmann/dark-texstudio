@@ -132,6 +132,10 @@ body, .file-list-item-summary {
     line-height: 1.6;
 }
 
+body > div > :first-child {
+    margin-top: 0.2rem;
+}
+
 #write {
     max-width: 860px;
     margin: 0 auto;
@@ -145,8 +149,7 @@ body, .file-list-item-summary {
 
 h1, h2, h3, h4, h5, h6 {
     position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 0.8rem auto;
     font-weight: bold;
     line-height: 1.4;
     cursor: text;
@@ -156,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2 {
     color: var(--big-title-color);
     letter-spacing: -0.04rem;
+    margin-top: 1rem;
 }
 
 h3, h4 {
@@ -183,12 +187,14 @@ h1 {
 
 h2 {
     font-size: 1.85em;
-    line-height: 1.225;
+    line-height: 1.2;
+    padding-bottom: 0em;
+    border-bottom: none;
 }
 
 h3 {
     font-size: 1.5em;
-    line-height: 1.43;
+    line-height: 1.2;
 }
 
 h4 {
@@ -205,7 +211,7 @@ h6 {
 }
 
 p, blockquote, ul, ol, dl, table {
-    margin: 0.8em 0;
+    margin: 0.4em 0;
 }
 
 li>ol, li>ul {
@@ -229,6 +235,10 @@ hr {
 
 li p.first {
     display: inline-block;
+}
+
+li p {
+    margin: auto;
 }
 
 ul, ol {
